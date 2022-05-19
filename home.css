@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.welcome{
+  background: url("image/new.jpg");
+  background-size: cover;
+    /* background-color:  #172b4d; */
+    height: 700px;
+    
+}
+.hotellogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 20px; */
+}
+
+.option{
+    margin: 0px 5vh;
+    text-decoration: none;
+    color: rgb(8, 0, 255);
+    font-size: 1.5vw;
+    font-weight: bold;
+
+}
+
+.welcomehotel{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 150px 0px;
+    color: rgb(246, 2, 2);
+
+}
+
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  antiquewhite;
+    padding-bottom: 40px;
+}
+
+.services h1{
+    margin: 50px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 70vw; */
+    /* border: 5px solid; */
+    background-color: white;
+
+}
+
+
+.card1{
+     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card1 img{
+    width: 500px;
+}
+
+
+.theory{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.theory p{
+    /* padding: 0px 100px; */
+    /* margin: 10px; */
+    text-align: center;
+}
+
+.name{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.the{
+    margin: 10px 0px;
+    font-size: 20px;
+    width: 500px;
+}
+
+
+
+
+.footer{
+  background-color: #3a3138;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: auto;
+
+}
+
+.hotel{
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  color: white;
+}
+
+.wer{
+  color: rgba(255,255,255,.5);
+  font-size: 20px;
+  line-height: 1.4;
+  padding: 30px 20px 20px 0px;
+}
+
+.hotello{
+  width: 150px;
+
+}
+
+.gallery{
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery img{
+  width: 100px;
+  padding: 10px;
+}
+
+.cn p{
+  padding: 20px 80px 10px 0px;
+  font-size: 17px;
+  color: rgba(255,255,255,.5);
+
+}
+
+.email{
+  margin: 20px 0px 20px 0px;
+  width: 250px;
+  height: 40px;
+  border-radius: 20px;
+
+}
+
+.black{
+  background-color: #3a3138;
+  
+  margin: auto;
+  /* width: 80%; */
+  padding: 30px;
+  color: rgba(255,255,255,.5);
+}
+
+.le{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 60px;
+
+}
+
